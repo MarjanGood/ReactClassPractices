@@ -13,7 +13,7 @@ export default memo(C2);
 const heavyFunction = ()=>{
 
     console.log("heavyFunction executed C2");
-    for(let i=0;i<20000000;i++){
+    for(let i=0;i<20;i++){
      new Date();
     }
 
